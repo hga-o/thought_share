@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+}
+
+.instruction {
+    height: 80px;
+}
+
+.instruction p {
+    position: fixed;
+    left: 20px;
+    top: -40px;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.about p {
+    position: fixed;
+    right: 20px;
+    bottom: -40px;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.about p:hover {
+    color: green;
+}
+
+.back p:hover {
+    color: green;
+}
+
+.abouttxt {
+    position: absolute;
+    width: 70%;
+    left: 20px;
+    top: -40px;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: .5px;
+}
+
+.abouttxt span {
+    font-family: arial;
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.part p {
+    font-family: arial;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+#colophon {
+    font-family: arial;
+    font-size: 11px;
+    color: white;
+    font-style: normal;
+    letter-spacing: .5px;
+    line-height: 14px;
+}
+
+.back p {
+    position: fixed;
+    right: 20px;
+    bottom: -40px;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    z-index: 1;
+    letter-spacing: .5px;
+}
+
+.container {
+    float: left;
+}
+
+.container img {
+    width: 25vw;
+    margin: 40 20 40 50;
+    cursor: pointer;
+}
+
+
+/*
+.cover {
+    position: absolute;
+    z-index: 1;
+}
+*/
+
+
+/*
+.hoverimages {
+    position: absolute;
+    z-index: 6;
+}
+*/
+
+.slider {
+    position: relative;
+    width: 550px;
+    height: auto;
+}
+
+.sp img {
+    width: 110%;
+    height: auto;
+    position: absolute;
+    z-index: 4;
+    cursor: e-resize;
+}
